@@ -4,7 +4,8 @@ class About extends Component {
   render() {
     return (
         <div>
-          <h2>About</h2>
+          <h2>About this place</h2>
+          This website is maintained by D. Gillman, hence its domain. Hopefully I will expand it in the future to show more projects and possibly a development blog.
         </div>
     );
   }
