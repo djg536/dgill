@@ -1,3 +1,5 @@
+//https://levelup.gitconnected.com/a-guide-to-service-workers-in-react-js-82aec1d6a22d
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 

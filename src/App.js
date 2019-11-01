@@ -8,8 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Software Developer
         </p>
+        <a href="https://www.google.com">Google</a>
+
         <a
           className="App-link"
           href="https://reactjs.org"
