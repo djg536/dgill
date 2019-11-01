@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Switch, Route, NavLink } from 'react-router-dom';
 
 import Home from './pages/Home';
