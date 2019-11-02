@@ -10,53 +10,46 @@ class Projects extends Component {
       <div>
         <Jumbotron fluid style={{backgroundImage: "url(" + require("../assets/projects/1.jpg") + ")" }}>
           <Container>
-            <h2>Projects</h2>
+            <h1>Projects</h1>
             <p>Here you'll find some of the things that I have been working on.<br/>
                Immerse yourself in this selection of my favourite creations. Have fun!</p>
           </Container>
         </Jumbotron>
 
-    
-        <Card text='light'>
-        <Card.Img src={require("../assets/projects/traincraft/2.jpg")} />
-          <Card.ImgOverlay>
-            <Card.Text>
-              <h2>60km Long Traincraft Network</h2>
-              <p>You'll be on the right track if you let off some steam on this Minecraft map.</p>
-              <br/>
-              <Link to="/projects/traincraft">
+
+        <Jumbotron fluid style={{backgroundImage: "url(" + require("../assets/projects/traincraft/2.jpg") + ")" }}>
+          <Container>
+            <h2>60km Long Traincraft Network</h2>
+            You'll be on the right track if you let off some steam on this Minecraft map.
+            <br/>
+            <Link to="/projects/traincraft">
               <Button variant="primary btn-lg">Toot-toot!</Button>
-              </Link>
-            </Card.Text> 
-          </Card.ImgOverlay>
-        </Card>
-              
-        <Card>
-        <Card.Img variant="top" src={require("../assets/projects/house/3.jpg")} />
-          <Card.Body>
-            <Card.Title>Mobfield Manor Minecraft Survival Map</Card.Title>
-            <Card.Text>
-              Put your survival skills to the test and see how long you can last out as your explore this long-abandoned mansion.
-            </Card.Text>
+            </Link>
+          </Container>
+        </Jumbotron>
+
+        <Jumbotron fluid style={{backgroundImage: "url(" + require("../assets/projects/house/3.jpg") + ")" }}>
+          <Container>
+            <h2>Mobfield Manor Minecraft Survival Map</h2>
+            Put your survival skills to the test and see how long you can last out as your explore this long-abandoned mansion.
+            <br/>
             <Link to="/projects/house">
               <Button variant="primary">I dare to find out more</Button>
             </Link>
-          </Card.Body>
-        </Card>
-        
-        <Card>
-        <Card.Img variant="top" src={require("../assets/projects/minecraftcity/1.jpg")} />
-          <Card.Body>
-            <Card.Title>Creeperville Minecraft City</Card.Title>
-            <Card.Text>
-              A huge city map which has spent more than half a decade in the making. 
-            </Card.Text>
+          </Container>
+        </Jumbotron>
+
+
+        <Jumbotron fluid style={{backgroundImage: "url(" + require("../assets/projects/minecraftcity/1.jpg") + ")" }}>
+          <Container>
+            <h2>Creeperville Minecraft City</h2>
+            A huge city map which has spent more than half a decade in the making.
+            <br/>
             <Link to="/projects/city">
               <Button variant="primary">Show me the money!</Button>
             </Link>
-          </Card.Body>
-        </Card>
-          
+          </Container>
+        </Jumbotron>        
        
         <CardDeck>
           <Card style={{ width: '18rem' }}>
