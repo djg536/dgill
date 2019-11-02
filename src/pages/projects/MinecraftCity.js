@@ -1,39 +1,50 @@
 import React, { Component } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import { Carousel, Container, Jumbotron } from 'react-bootstrap';
 import generateCarouselItemsHTML from '../../Library';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 class MinecraftCity extends Component {
   render() {
     return (
         <div>
-            <h2>Creeperville Minecraft City</h2>
-            <strong>An idyllic and leafy Minecraft city with a a variety of districts</strong>
-            <br/>
-            <br/>
-		    This Minecraft city stretches for a few kilometers, and is my idea of a future metropolis and urban paradise:
-			<br/>
-			<br/>
-			<ul>
-				<li>Plenty of green space and parks, even in the center of the city</li>
-				<li>Farms to provide food and self-sufficiency</li>
-				<li>Large office blocks and skyscrapers</li>
-				<li>Low rise residential areas and mansions</li>
-				<li>Extremely dense underground and light railway network, as well as commuter lines connecting nearby villages - no roads or traffic of any kind</li>
-				<li>Epic stations, sports stadiums, bridges, cathederals, castles</li>
-				<li>Several large ships and boats are dotted around the waters</li>
-				<li>Player and mob statues</li>
-				<li>Airports and hotels</li>
-			</ul>
-			<br/>
-			This map has been in development for around half a decade; there are so many small tunnels and hidden areas that even I can't remember all the secrets that the city holds!
-			<br/>
+
+            <Jumbotron fluid style={{backgroundImage: "url(" + require("../../assets/projects/minecraftcity/1.jpg") + ")" }}>
+                <Container>
+                    <h1>Creeperville Minecraft City</h1>
+                    <p>An idyllic and leafy Minecraft city with a a variety of districts</p>
+                </Container>
+            </Jumbotron>
+
+            <div class="main-text">
+                <br/>
+                This Minecraft city stretches for a few kilometers, and is my idea of a future metropolis and urban paradise:
+                <br/>
+                <br/>
+                <ul>
+                    <li>Plenty of green space and parks, even in the center of the city</li>
+                    <li>Farms to provide food and self-sufficiency</li>
+                    <li>Large office blocks and skyscrapers</li>
+                    <li>Low rise residential areas and mansions</li>
+                    <li>Extremely dense underground and light railway network, as well as commuter lines connecting nearby villages - no roads or traffic of any kind</li>
+                    <li>Epic stations, sports stadiums, bridges, cathederals, castles</li>
+                    <li>Several large ships and boats are dotted around the waters</li>
+                    <li>Player and mob statues</li>
+                    <li>Airports and hotels</li>
+                </ul>
+                <br/>
+                This map has been in development for around half a decade; there are so many small tunnels and hidden areas that even I can't remember all the secrets that the city holds!
+                <br/>
+            </div>
 
             <Carousel>
                 {generateCarouselItemsHTML(lst)}
             </Carousel>
 
-			<br/>
-            <a href="https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view"><button>Download</button></a>
+            <div class="main-text">
+                <br/>
+                <a href="https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view"><button class="btn btn-success">Download <FontAwesomeIcon icon={faDownload} /></button></a>
+            </div>
         </div>
     );
   }

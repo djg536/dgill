@@ -21,3 +21,15 @@ div.jumbotron div.container {
     border-radius: 8px;
     max-width: 50vw;
 }
+
+.main-text {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    text-align: justify;
+}
+
+body {
+    color: rgb(200,200,200);
+    background-color: rgb(40,40,40);
+    padding-bottom: 50px;
+}
