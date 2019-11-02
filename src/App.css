@@ -1,0 +1,15 @@
+nav.navbar {
+    background: rgba(0,0,0,0.6);
+    transition: 1s;
+}
+
+div.jumbotron {
+    background-size: cover;
+    min-height: calc(100vh);
+    background-attachment: fixed;
+}
+
+div.jumbotron div.container {
+    color: white;
+    margin-top: 160px;
+}

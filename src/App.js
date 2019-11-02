@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Switch, Route, NavLink } from 'react-router-dom';
 
+//Make sure that this import is after Bootstrap
+import './App.css';
+
 import Home from './pages/Home';
 import Trains from './pages/Trains';
 import Projects from './pages/Projects';
@@ -25,7 +28,7 @@ function App() {
   return (
     <div className="App">
       
-      <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark">
+      <Navbar collapseOnSelect expand="sm" variant="dark" fixed="top">
         <Navbar.Brand as={NavLink} to="/">dgill.uk</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -47,6 +50,7 @@ function App() {
     </div>
   );
 }
+
 
 const ProjectsRouter = ({match}) => (
   <div>
