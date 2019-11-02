@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Trains extends Component {
   render() {
@@ -6,14 +7,21 @@ class Trains extends Component {
         <div>
           <h2>Trains</h2>
           There are so many interesting trains and railways, of which some of my favourites from the UK have been detailed here.
-
+          <br/>
+          <strong>Train Profiles</strong>
           <ul>
-            <li><a href="class315.html">Class 315</a></li>
-            <li><a href="hst.html">Class 43 HST</a></li>
-            <li><a href="class91.html">Class 91</a></li>
-            <li><a href="class317.html">Class 317</a></li>
-            <li><a href="class390.html">Class 390</a></li>
-            <li><a href="class395.html">Class 395</a></li>
+            <li><Link to="/trains/class43">Class 43 HST</Link></li>
+            <li><Link to="/trains/class91">Class 91</Link></li>
+            <li><Link to="/trains/class315">Class 315</Link></li>
+            <li><Link to="/trains/class317">Class 317</Link></li>
+            <li><Link to="/trains/class390">Class 390</Link></li>
+            <li><Link to="/trains/class395">Class 395</Link></li>
+          </ul>
+
+          <strong>Railways and Networks</strong>
+          <ul>
+            <li><Link to="/trains/tyneandwearmetro">Tyne and Wear Metro</Link></li>
+            <li><Link to="/trains/merseyrail">Merseyrail</Link></li>
           </ul>
         </div>
     );

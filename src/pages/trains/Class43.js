@@ -1,0 +1,34 @@
+import React, {Component} from 'react';
+
+class Class43 extends Component {
+    render() {
+        return (
+            <div>
+               <h1>British Rail High Speed Train (Class 43 HST)</h1>
+                These are perhaps the most iconic type of train to be found on Britain's mainlines today, and can be found all over the network. They are also know as the Intercity 125, due to their ability to reguarly operate at 125 MPH. On test runs, higher speeds have been achieved, giving this class of train the world speed record for the fastest diesel locomotive, but in conventional running are limited to 125 MPH as it is not deemed safe to go any faster with lineside, rather than in-cab signalling. Each train is made up of two Class 43 power cars at each end of the train in a push-pull fashion, and Mk3 coaches which are slam door. Built from 1975-82, most of these trains are still in regular service, but are due to be replaced due to the Intercity Express Programme; some are going to Scotrail for further use, but require extensive modification to satisfy new regulations.
+                <br/>
+                <br/>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tXkXQ7FoNc8" allowFullScreen></iframe>
+                </div>
+                <br/>
+                <br/>
+                <strong>Below: A High Speed Train at Paddington Station. One of the power cars has been repainted in original livery.</strong>
+                <br/>
+                <img class="img-fluid" src={require("../../assets/trains/43/1.jpg")}/>
+                <br/>
+                <br/>
+                <strong>Below: A High Speed Train at York Station.</strong>
+                <br/>
+                <img class="img-fluid" src={require("../../assets/trains/43/2.jpg")}/>
+                <br/>
+                <br/>
+                <strong>Below: A Class 43 and Class 91 at London King's Cross Station.</strong>
+                <br/>
+                <img class="img-fluid" src={require("../../assets/trains/43/3.jpg")}/>
+            </div>
+        );
+    }
+}
+
+export default Class43;

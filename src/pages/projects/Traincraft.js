@@ -33,6 +33,10 @@ class Traincraft extends Component {
                     {generateCarouselItemsHTML(lst)}
                 </Carousel>
 
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hHQjd8VIYz0" allowFullScreen></iframe>
+                </div>
+
                 <br/>
                 <a href="images/minecraft/traincraft/World Map.jpg"><button>Download Top-Down Map (Very large)</button></a>
                 <a href="https://drive.google.com/open?id=1NRrbU9eWfZ2hqKRp_0_eVACTNjLI0P9F"><button>Download Minecraft World (Over 750 MB)</button></a>
