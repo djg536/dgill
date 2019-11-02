@@ -8,6 +8,8 @@ class Projects extends Component {
         <h2>Projects</h2>
         <ul>
           <li><Link to="/projects/city">Minecraft City</Link></li>
+          <li><Link to="/projects/traincraft">Traincraft</Link></li>
+          <li><Link to="/projects/house">House</Link></li>
         </ul>
       </div>
     );

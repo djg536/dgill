@@ -8,6 +8,8 @@ import Trains from './pages/Trains';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import MinecraftCity from './pages/projects/MinecraftCity';
+import Traincraft from './pages/projects/Traincraft';
+import House from './pages/projects/House';
 
 function App() {
   return (
@@ -40,6 +42,8 @@ const ProjectsRouter = ({ match }) => (
   <div>
     <Switch>
       <Route path={`${match.path}/city`} component={MinecraftCity}/>
+      <Route path={`${match.path}/traincraft`} component={Traincraft}/>
+      <Route path={`${match.path}/house`} component={House}/>
       <Route path={`${match.path}`} component={Projects}/>
     </Switch>
   </div>
