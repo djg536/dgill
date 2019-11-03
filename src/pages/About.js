@@ -4,8 +4,14 @@ class About extends Component {
   render() {
     return (
         <div class="main-text">
-          <h2>About this place</h2>
-          This website is maintained by D. Gillman, hence its domain. Stay tuned to see more projects and possibly in future a development blog.
+          <h1>About this place</h1>
+          This website is maintained by D. Gillman, hence its domain.
+        
+          <p>It was built using <a href="https://reactjs.org/">React</a>, 
+          with help from beautiful <a href="https://fontawesome.com/">Font Awesome</a> icons, 
+          and amazing <a href="https://github.com/Wufe/react-particles-js">particles.js</a> effects.</p>
+        
+          <p>Stay tuned to see more projects.</p>
         </div>
     );
   }

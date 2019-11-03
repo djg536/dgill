@@ -13,6 +13,13 @@ div.jumbotron {
 div.jumbotron svg {
     margin-left: 19px;
     margin-right: 19px;
+    color: white;
+}
+
+div.jumbotron h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
 }
 
 div.jumbotron div.container {
@@ -36,7 +43,6 @@ div.jumbotron div.container {
 body {
     color: rgb(200,200,200);
     background-color: rgb(40,40,40);
-    padding-bottom: 50px;
     margin-top: 100px;
 }
 
