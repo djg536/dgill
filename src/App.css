@@ -32,4 +32,9 @@ body {
     color: rgb(200,200,200);
     background-color: rgb(40,40,40);
     padding-bottom: 50px;
+    margin-top: 100px;
 }
+
+.jumbotron:first-of-type {
+    margin-top: -100px;
+  }

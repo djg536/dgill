@@ -22,6 +22,7 @@ class Traincraft extends Component {
                     <br/>
                     <br/>
                 </div>
+
                 <Carousel>
                     {generateCarouselItemsHTML(lst)}
                 </Carousel>
@@ -44,10 +45,11 @@ class Traincraft extends Component {
                         <li>MoarOres</li>
                     </ul>
                     <br/>
-                </div>
+              
 
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hHQjd8VIYz0" allowFullScreen></iframe>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hHQjd8VIYz0" allowFullScreen></iframe>
+                    </div>
                 </div>
 
                 <div class="main-text">

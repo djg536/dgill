@@ -6,6 +6,7 @@ import { faExternalLinkAlt, faChevronDown } from '@fortawesome/free-solid-svg-ic
 
 import '../App.css';
 
+
 const ref = React.createRef();
 
 class Projects extends Component {
@@ -16,7 +17,7 @@ class Projects extends Component {
           <Container style={{width: 'fit-content'}}>
             <h1>Projects</h1>
             <p>Here you'll find some of the things that I have been working on.<br/>
-               Immerse yourself in this selection of my favourite creations. Have fun!</p>
+               Immerse yourself in this selection of my favourite works. Have fun!</p>
                <FontAwesomeIcon onClick={scrollButton} size="2x" style={{textAlign: 'center', margin: 'auto', display: 'block', cursor: 'pointer'}} icon={faChevronDown} />
           </Container>
         </Jumbotron>

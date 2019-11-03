@@ -26,7 +26,7 @@ import Class395 from './pages/trains/Class395';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       
       <Navbar collapseOnSelect expand="sm" variant="dark" fixed="top">
         <Navbar.Brand as={NavLink} to="/">dgill.uk</Navbar.Brand>
