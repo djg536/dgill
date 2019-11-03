@@ -10,6 +10,11 @@ div.jumbotron {
     margin-bottom: 0;
 }
 
+div.jumbotron svg {
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
 div.jumbotron div.container {
     color: white;
     margin-top: 160px;
@@ -37,4 +42,9 @@ body {
 
 .jumbotron:first-of-type {
     margin-top: -100px;
-  }
+ }
+
+ canvas {
+     position: absolute;
+     top: 0;
+ }
