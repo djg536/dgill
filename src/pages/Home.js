@@ -11,21 +11,22 @@ class Home extends Component {
     return (
         <div>
 
-          <Jumbotron fluid style={{backgroundImage: "url(" + require("../assets/home/1.jpg") + ")" }}>
+          <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/home/1.jpg') + ')' }}>
             <Container style={{width: 'fit-content'}}>
               <h1>You can call me Dave.</h1>
-              <FontAwesomeIcon size="2x" icon={faPython} />
-              <FontAwesomeIcon size="2x" icon={faJava} />
-              <FontAwesomeIcon size="2x" icon={faJsSquare} />
-              <FontAwesomeIcon size="2x" icon={faReact} />
-              <FontAwesomeIcon size="2x" icon={faCss3Alt} />
-              <FontAwesomeIcon size="2x" icon={faHtml5} />
+              <p></p>
+              <FontAwesomeIcon size='2x' icon={faJava} />
+              <FontAwesomeIcon size='2x' icon={faPython} />
+              <FontAwesomeIcon size='2x' icon={faJsSquare} />
+              <FontAwesomeIcon size='2x' icon={faReact} />
+              <FontAwesomeIcon size='2x' icon={faCss3Alt} />
+              <FontAwesomeIcon size='2x' icon={faHtml5} />
               <h3 style={{display: 'inline-block'}}>C# .NET</h3>
               <h3 style={{display: 'inline-block'}}>SQL</h3>
             </Container>
           </Jumbotron>
 
-           <Particles params={require("../assets/home/particlesjs-config.json")}/>
+           <Particles params={require('../assets/home/particlesjs-config.json')}/>
 
          
         </div>

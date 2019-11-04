@@ -28,23 +28,23 @@ function App() {
   return (
     <div>
       
-      <Navbar collapseOnSelect expand="sm" variant="dark" fixed="top">
-        <Navbar.Brand as={NavLink} to="/">dgill.uk</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
-            <Nav.Link as={NavLink} to="/trains">Trains</Nav.Link>
-            <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+      <Navbar collapseOnSelect expand='sm' variant='dark' fixed='top'>
+        <Navbar.Brand as={NavLink} to='/'>dgill.uk</Navbar.Brand>
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
+          <Nav className='mr-auto'>
+            <Nav.Link as={NavLink} to='/projects'>Projects</Nav.Link>
+            <Nav.Link as={NavLink} to='/trains'>Trains</Nav.Link>
+            <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={ProjectsRouter} />
-        <Route path="/trains" component={TrainsRouter} />
-        <Route path="/about" component={About} />      
+        <Route exact path='/' component={Home} />
+        <Route path='/projects' component={ProjectsRouter} />
+        <Route path='/trains' component={TrainsRouter} />
+        <Route path='/about' component={About} />      
       </Switch>
 
     </div>

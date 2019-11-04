@@ -4,12 +4,12 @@ class TyneAndWearMetro extends Component {
     render() {
         return (
             <div>
-                <div class="main-text">
+                <div class='main-text'>
                     <h2>Tyne and Wear Metro</h2>
                     <br/>
 
-                    <div>
-                        <object data="https://www.youtube.com/embed/47MNTowF2OI"></object>
+                    <div class='embed-responsive embed-responsive-16by9'>
+                        <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/47MNTowF2OI' allowFullScreen title='A YouTube video showing Metro trains and tunnels around the network'></iframe>
                     </div>
 
                     <br/>
