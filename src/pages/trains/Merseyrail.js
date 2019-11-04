@@ -4,12 +4,12 @@ class Merseyrail extends Component {
     render() {
         return (
             <div>
-                <div class='main-text'>
+                <div className='main-text'>
                     <h2>Merseyrail</h2>
                     <br/>
 
-                    <div class='embed-responsive embed-responsive-16by9'>
-                        <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/67BIoEHTdnA' allowFullScreen title='A YouTube video featuring some rides on Merseyrail trains'></iframe>
+                    <div className='embed-responsive embed-responsive-16by9'>
+                        <iframe className='embed-responsive-item' src='https://www.youtube.com/embed/67BIoEHTdnA' allowFullScreen title='A YouTube video featuring some rides on Merseyrail trains'></iframe>
                     </div>
  
                     <br/>

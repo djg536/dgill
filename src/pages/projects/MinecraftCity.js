@@ -16,7 +16,7 @@ class MinecraftCity extends Component {
                 </Container>
             </Jumbotron>
 
-            <div class='main-text'>
+            <div className='main-text'>
                 <br/>
                 This Minecraft city stretches for a few kilometers, and is my idea of a future metropolis and urban paradise:
                 <br/>
@@ -41,9 +41,9 @@ class MinecraftCity extends Component {
                 {generateCarouselItemsHTML(lst)}
             </Carousel>
 
-            <div class='main-text'>
+            <div className='main-text'>
                 <br/>
-                <a href='https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view'><button class='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button></a>
+                <a href='https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view'><button className='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button></a>
             </div>
         </div>
     );

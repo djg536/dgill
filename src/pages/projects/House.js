@@ -16,7 +16,7 @@ class House extends Component {
                     </Container>
                 </Jumbotron>
 
-                <div class='main-text'>
+                <div className='main-text'>
                     <br/>
                     This map features a large mansion filled with mob spawners and is great in multiplayer. The aim is to traverse the house in survival mode, picking up items and tools from chests scattered all over. There are several diary entries written by those inhabiting the house during its downfall, to help you unravel the story behind it. Solve puzzles and riddles, and try not to get lost!
                     <br/>
@@ -27,9 +27,9 @@ class House extends Component {
                     {generateCarouselItemsHTML(lst)}
                 </Carousel>
 
-                <div class='main-text'>
+                <div className='main-text'>
                     <br/>
-                    <a href='https://drive.google.com/open?id=1yXYP5VdblMhWKa8a_DmielqyXCBQEKaJ'><button class='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button></a>
+                    <a href='https://drive.google.com/open?id=1yXYP5VdblMhWKa8a_DmielqyXCBQEKaJ'><button className='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button></a>
                 </div>
             </div>
         );

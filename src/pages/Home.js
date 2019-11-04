@@ -13,6 +13,7 @@ class Home extends Component {
 
           <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/home/1.jpg') + ')' }}>
             <Container style={{width: 'fit-content'}}>
+              <h4>Hi, I'm a software developer.</h4>
               <h1>You can call me Dave.</h1>
               <p></p>
               <FontAwesomeIcon size='2x' icon={faJava} />

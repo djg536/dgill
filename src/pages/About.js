@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
     return (
-        <div class="main-text">
+        <div className="main-text">
           <h1>About this place</h1>
           This website is maintained by D. Gillman, hence its domain.
         

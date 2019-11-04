@@ -54,8 +54,8 @@ class Projects extends Component {
           </Container>
         </Jumbotron>        
        
-        <CardDeck style={{color: 'black'}}>
-          <Card style={{ width: '18rem' }}>
+        <CardDeck style={{color: 'black', margin: 0}}>
+          <Card>
           <Card.Img variant='top' src={require('../assets/projects/asciistudio/3.jpg')} />
             <Card.Body>
               <Card.Title>ASCII Art Studio</Card.Title>
@@ -68,7 +68,7 @@ class Projects extends Component {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '18rem' }}>
+          <Card>
           <Card.Img variant='top' src={require('../assets/projects/imageencryptor/1.jpg')} />
             <Card.Body>
               <Card.Title>Image Encryptor</Card.Title>
@@ -81,12 +81,12 @@ class Projects extends Component {
             </Card.Body>
           </Card>
 
-          <Card style={{ width: '18rem' }}>
+          <Card>
           <Card.Img variant='top' src={require('../assets/projects/yeezy/1.jpg')} />
             <Card.Body>
-              <Card.Title>'Yeezy Games' Software Engineering Project'</Card.Title>
+              <Card.Title>Software Engineering Project</Card.Title>
               <Card.Text>
-                A group project to design and build a game.
+                An undergraduate group project to design and build a game.
               </Card.Text>
               <a href='https://sites.google.com/york.ac.uk/yeezygames/home' target='_blank' rel='noopener noreferrer'>
                 <Button variant='info'>See more <FontAwesomeIcon icon={faExternalLinkAlt} /></Button>
