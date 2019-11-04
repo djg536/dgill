@@ -8,7 +8,7 @@ class Trains extends Component {
     return (
         <div>
           <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/trains/1.jpg') + ')' }}>
-            <Container style={{color: 'black', width: 'fit-content'}}>
+            <Container style={{width: 'fit-content'}}>
               <h1>The Train Encyclopedia</h1>
               <p>A review of the most interesting modern trains and railways in the UK.</p>
             </Container>

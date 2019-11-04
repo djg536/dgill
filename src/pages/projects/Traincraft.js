@@ -63,7 +63,7 @@ class Traincraft extends Component {
 }
 
 const lst = 
-        [[require('../../assets/projects/traincraft/2.jpg'), 'A typical set of sidings as found on the map, alongside a farm and orchard.'],
+        [[require('../../assets/projects/traincraft/2.jpg'), 'Passenger train passing through a forest.'],
         [require('../../assets/projects/traincraft/3.jpg'), 'A train departs a village station on the mainline. The tracks on the far left are sidings.'],
         [require('../../assets/projects/traincraft/4.jpg'), 'Crossing a lake by means of a rail bridge.'],
         [require('../../assets/projects/traincraft/5.jpg'), 'Crossing lava from a volcano on an arched stone viaduct.'],

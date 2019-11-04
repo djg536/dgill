@@ -23,7 +23,7 @@ class Projects extends Component {
         </Jumbotron>
 
 
-        <Jumbotron ref={ref} fluid style={{backgroundImage: 'url(' + require('../assets/projects/traincraft/2.jpg') + ')' }}>
+        <Jumbotron ref={ref} fluid style={{backgroundImage: 'url(' + require('../assets/projects/traincraft/10.jpg') + ')' }}>
           <Container>
             <h2>60km Long Traincraft Network</h2>
             <p>You'll be on the right track if you let off some steam on this Minecraft map.</p>
@@ -86,7 +86,7 @@ class Projects extends Component {
             <Card.Body>
               <Card.Title>Software Engineering Project</Card.Title>
               <Card.Text>
-                An undergraduate group project to design and build a game.
+                An undergraduate group project which I was a part of to design and build a game.
               </Card.Text>
               <a href='https://sites.google.com/york.ac.uk/yeezygames/home' target='_blank' rel='noopener noreferrer'>
                 <Button variant='info'>See more <FontAwesomeIcon icon={faExternalLinkAlt} /></Button>
