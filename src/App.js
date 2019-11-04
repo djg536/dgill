@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Switch, Route, NavLink } from 'react-router-dom';
@@ -24,18 +24,23 @@ import Class317 from './pages/trains/Class317';
 import Class390 from './pages/trains/Class390';
 import Class395 from './pages/trains/Class395';
 
+
+
 function App() {
+  
+  const [expanded, setExpanded] = useState(false);
+
   return (
-    <div>
+    <div onClick={() => {if (expanded==='expanded') setExpanded(false)}}>
       
-      <Navbar collapseOnSelect expand='sm' variant='dark' fixed='top'>
+      <Navbar expanded={expanded} expand='sm' variant='dark' fixed='top'>
         <Navbar.Brand as={NavLink} to='/'>dgill.uk</Navbar.Brand>
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' onClick={() => setExpanded('expanded')}/>
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='mr-auto'>
-            <Nav.Link as={NavLink} to='/projects'>Projects</Nav.Link>
-            <Nav.Link as={NavLink} to='/trains'>Trains</Nav.Link>
-            <Nav.Link as={NavLink} to='/about'>About</Nav.Link>
+            <Nav.Link as={NavLink} onClick={() => setExpanded(false)} to='/projects'>Projects</Nav.Link>
+            <Nav.Link as={NavLink} onClick={() => setExpanded(false)} to='/trains'>Trains</Nav.Link>
+            <Nav.Link as={NavLink} onClick={() => setExpanded(false)} to='/about'>About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -11,7 +11,7 @@ class About extends Component {
           with help from beautiful <a href="https://fontawesome.com/">Font Awesome</a> icons, 
           and amazing <a href="https://github.com/Wufe/react-particles-js">particles.js</a> effects.</p>
         
-          Licenses:&nbsp;
+          Licences:&nbsp;
           <a href="https://github.com/Wufe/react-particles-js/blob/master/LICENSE.md">React</a>&nbsp;
           <a href="https://github.com/facebook/react/blob/master/LICENSE">particles.js</a>
           <p/>
