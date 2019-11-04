@@ -56,7 +56,7 @@ class Projects extends Component {
        
         <CardDeck style={{color: 'black', margin: 0}}>
           <Card>
-          <Card.Img variant='top' src={require('../assets/projects/asciistudio/3.jpg')} />
+          <Card.Img variant='top' src={require('../assets/projects/asciistudio/2.jpg')} />
             <Card.Body>
               <Card.Title>ASCII Art Studio</Card.Title>
               <Card.Text>

@@ -5,12 +5,16 @@ class About extends Component {
     return (
         <div className="main-text">
           <h1>About this place</h1>
-          This website is maintained by D. Gillman, hence its domain.
+          This website is maintained by David Gillman, hence its domain.
         
-          <p>It was built using <a href="https://reactjs.org/">React</a>, 
+          <p>It was built using <a href="https://reactjs.org/">React</a>,
           with help from beautiful <a href="https://fontawesome.com/">Font Awesome</a> icons, 
           and amazing <a href="https://github.com/Wufe/react-particles-js">particles.js</a> effects.</p>
         
+          Licenses:&nbsp;
+          <a href="https://github.com/Wufe/react-particles-js/blob/master/LICENSE.md">React</a>&nbsp;
+          <a href="https://github.com/facebook/react/blob/master/LICENSE">particles.js</a>
+          <p/>
           <p>Stay tuned to see more projects.</p>
         </div>
     );

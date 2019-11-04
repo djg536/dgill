@@ -22,8 +22,8 @@ class Home extends Component {
               <FontAwesomeIcon size='2x' icon={faReact} />
               <FontAwesomeIcon size='2x' icon={faCss3Alt} />
               <FontAwesomeIcon size='2x' icon={faHtml5} />
-              <h3 style={{display: 'inline-block'}}>C# .NET</h3>
-              <h3 style={{display: 'inline-block'}}>SQL</h3>
+              <h4 style={{display: 'inline-block'}}>C# .NET</h4>
+              <h4 style={{display: 'inline-block'}}>SQL</h4>
             </Container>
           </Jumbotron>
 

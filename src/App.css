@@ -8,7 +8,7 @@ div.jumbotron {
     min-height: calc(100vh);
     background-attachment: fixed;
     margin-bottom: 0;
-    text-shadow: 2px 2px 6px #000000;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 div.jumbotron svg {
@@ -17,10 +17,11 @@ div.jumbotron svg {
     color: white;
 }
 
-div.jumbotron h3 {
+div.jumbotron h4 {
     margin-left: 10px;
     margin-right: 10px;
     color: white;
+    text-shadow: none;
 }
 
 div.jumbotron div.container {
