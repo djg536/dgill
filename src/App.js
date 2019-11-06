@@ -15,6 +15,7 @@ import Traincraft from './pages/projects/Traincraft';
 import House from './pages/projects/House';
 import AsciiStudio from './pages/projects/AsciiStudio';
 import ImageEncryptor from './pages/projects/ImageEncryptor';
+import AnimationStudio from './pages/projects/AnimationStudio';
 import TyneAndWearMetro from './pages/trains/TyneAndWearMetro';
 import Merseyrail from './pages/trains/Merseyrail';
 import Class43 from './pages/trains/Class43';
@@ -65,6 +66,7 @@ const ProjectsRouter = ({match}) => (
       <Route path={`${match.path}/house`} component={House}/>
       <Route path={`${match.path}/asciistudio`} component={AsciiStudio}/>
       <Route path={`${match.path}/imageencryptor`} component={ImageEncryptor}/>
+      <Route path={`${match.path}/animationstudio`} component={AnimationStudio}/>
       <Route path={`${match.path}`} component={Projects}/>
     </Switch>
   </div>
