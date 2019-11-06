@@ -9,7 +9,7 @@ class House extends Component {
         return (
             <div>
 
-                <Jumbotron fluid style={{backgroundImage: 'url(' + require('../../assets/projects/house/2.jpg') + ')' }}>
+                <Jumbotron fluid style={{backgroundImage: 'url(' + require('../../assets/minecraft/house/2.jpg') + ')' }}>
                     <Container>
                         <h1>Mobfield Manor</h1>
                         <p>A gruelling Minecraft survival challenge map - will you survive?</p>
@@ -37,11 +37,11 @@ class House extends Component {
 }
 
 const lst = 
-        [[require('../../assets/projects/house/3.jpg'), 'Large stone columns give this room a temple-like appearance.'],
-        [require('../../assets/projects/house/4.jpg'), 'This is one of the outdoor areas and features a maze.'],
-        [require('../../assets/projects/house/5.jpg'), 'The main courtyard of the house.'],
-        [require('../../assets/projects/house/6.jpg'), 'Numerous spawners make traversal a challenge.'],
-        [require('../../assets/projects/house/7.jpg'), 'Some areas are particuarly worse for wear and nature has taken over.'],
-        [require('../../assets/projects/house/8.jpg'), 'Some rooms are deep underground in a labyrinth of tunnels.']];
+        [[require('../../assets/minecraft/house/3.jpg'), 'Large stone columns give this room a temple-like appearance.'],
+        [require('../../assets/minecraft/house/4.jpg'), 'This is one of the outdoor areas and features a maze.'],
+        [require('../../assets/minecraft/house/5.jpg'), 'The main courtyard of the house.'],
+        [require('../../assets/minecraft/house/6.jpg'), 'Numerous spawners make traversal a challenge.'],
+        [require('../../assets/minecraft/house/7.jpg'), 'Some areas are particuarly worse for wear and nature has taken over.'],
+        [require('../../assets/minecraft/house/8.jpg'), 'Some rooms are deep underground in a labyrinth of tunnels.']];
 
 export default House;

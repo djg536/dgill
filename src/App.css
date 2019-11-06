@@ -8,7 +8,10 @@ div.jumbotron {
     min-height: calc(100vh);
     background-attachment: fixed;
     margin-bottom: 0;
-    text-shadow: 2px 2px 4px #000000;
+}
+
+div.jumbotron, div.carousel-caption {
+    text-shadow: 3px 3px 4px #000000;
 }
 
 div.jumbotron svg {

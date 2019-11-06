@@ -24,7 +24,7 @@ class Projects extends Component {
 
         <Jumbotron ref={ref} fluid style={{backgroundImage: 'url(' + require('../assets/projects/yeezy/1.jpg') + ')' }}>
           <Container>
-            <h2>Software Engineering Project</h2>
+            <h1>Software Engineering Project</h1>
             <p>An undergraduate group project I was a part of to design and build a series of zombie games.</p>
             <a href='https://sites.google.com/york.ac.uk/yeezygames/home' target='_blank' rel='noopener noreferrer'>
               <Button variant='success btn-lg'>See more <FontAwesomeIcon icon={faExternalLinkAlt} /></Button>
@@ -77,7 +77,7 @@ class Projects extends Component {
         
         <CardDeck> 
           <Card>
-              <Card.Img variant='top' src={require('../assets/projects/experimental/2.jpg')} />
+              <Card.Img variant='top' src={require('../assets/projects/misc/1.jpg')} />
               <Card.Body>
                   <Card.Title>Scientific Calculator</Card.Title>
                   <Card.Text>
@@ -87,7 +87,7 @@ class Projects extends Component {
           </Card>
 
           <Card>
-              <Card.Img variant='top' src={require('../assets/projects/experimental/3.jpg')} />
+              <Card.Img variant='top' src={require('../assets/projects/misc/2.jpg')} />
               <Card.Body>
                   <Card.Title>Rich Text Editor</Card.Title>
                   <Card.Text>
@@ -97,7 +97,7 @@ class Projects extends Component {
           </Card>
 
           <Card>
-              <Card.Img variant='top' src={require('../assets/projects/experimental/4.jpg')} />
+              <Card.Img variant='top' src={require('../assets/projects/misc/3.jpg')} />
               <Card.Body>
                   <Card.Title>Railcrafter Train Simulator</Card.Title>
                   <Card.Text>
@@ -107,46 +107,25 @@ class Projects extends Component {
           </Card>
         </CardDeck>
 
-
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/traincraft/10.jpg') + ')' }}>
-          <Container>
-            <h2>60km Long Traincraft Network</h2>
-            <p>You'll be on the right track if you let off some steam on this Minecraft map.</p>
-            <Link to='/projects/traincraft'>
-              <Button variant='primary btn-lg'>Toot-toot!</Button>
-            </Link>
-          </Container>
-        </Jumbotron>
-
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/house/3.jpg') + ')' }}>
-          <Container>
-            <h2>Mobfield Manor Minecraft Survival Map</h2>
-            <p>Put your survival skills to the test and see how long you can last out as your explore this long-abandoned mansion.</p>
-            <Link to='/projects/house'>
-              <Button variant='danger btn-lg'>I dare to find out more</Button>
-            </Link>
-          </Container>
-        </Jumbotron>
-
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/minecraftcity/1.jpg') + ')' }}>
-          <Container>
-            <h2>Creeperville Minecraft City</h2>
-            <p>A huge city map which has spent more than half a decade in the making.</p>
-            <Link to='/projects/city'>
-              <Button variant='warning btn-lg'>Show me the money!</Button>
-            </Link>
-          </Container>
-        </Jumbotron>        
-
         <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/gamemaker/1.jpg') + ')' }}>
           <Container>
-            <h2>GameMaker 8 Games</h2>
+            <h1>GameMaker 8 Games</h1>
             <p>These games were created during my early years as a programmer and let me experiment.</p>
             <Link to='/projects/gamemaker'>
-              <Button variant='dark btn-lg'>Tell me more</Button>
+              <Button variant='warning btn-lg'>Tell me more</Button>
             </Link>
           </Container>
-        </Jumbotron>        
+        </Jumbotron>   
+
+        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/1.jpg') + ')' }}>
+          <Container>
+            <h1>Minecraft Megaprojects</h1>
+            <p>My biggest builds in everyone's favourite voxel.</p>
+            <Link to='/minecraft'>
+              <Button variant='danger btn-lg'>Block by block</Button>
+            </Link>
+          </Container>
+        </Jumbotron>         
 
       </div>
     );

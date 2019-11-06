@@ -9,10 +9,10 @@ class MinecraftCity extends Component {
     return (
         <div>
 
-            <Jumbotron fluid style={{backgroundImage: 'url(' + require('../../assets/projects/minecraftcity/1.jpg') + ')' }}>
+            <Jumbotron fluid style={{backgroundImage: 'url(' + require('../../assets/minecraft/minecraftcity/1.jpg') + ')' }}>
                 <Container>
                     <h1>Creeperville Minecraft City</h1>
-                    <p>An idyllic and leafy Minecraft city with a a variety of districts</p>
+                    <p>An idyllic and leafy Minecraft city with a variety of districts</p>
                 </Container>
             </Jumbotron>
 
@@ -51,17 +51,17 @@ class MinecraftCity extends Component {
 }
 
 const lst =
-        [[require('../../assets/projects/minecraftcity/2.jpg'), 'A hill with a view'],
-        [require('../../assets/projects/minecraftcity/3.jpg'), 'A low rise street of houses with skyscrapers in the distance.'],
-        [require('../../assets/projects/minecraftcity/4.jpg'), 'The Monorail transit system passes over a metro line in the heart of the city'],
-        [require('../../assets/projects/minecraftcity/5.jpg'), 'Here is Creeperville City Park with its lake and gardens'],
-        [require('../../assets/projects/minecraftcity/6.jpg'), 'There are a wide variety of land uses and types of building'],
-        [require('../../assets/projects/minecraftcity/7.jpg'), 'Manor Street metro station on Line 3b'],
-        [require('../../assets/projects/minecraftcity/8.jpg'), 'The rail network is very dense and is the fastest way to travel'], 
-        [require('../../assets/projects/minecraftcity/9.jpg'), 'Creeperville football stadium'], 
-        [require('../../assets/projects/minecraftcity/10.jpg'), 'Some buildings are based on real life ones. Here we look across the lakes and the roof of Marylecreeper station, which is based on London Marylebone.'],
-        [require('../../assets/projects/minecraftcity/11.jpg'), 'Now this is what I call a lounge!'],
-        [require('../../assets/projects/minecraftcity/12.jpg'), 'The interior of a 1930s-style semi-detached house'],
-        [require('../../assets/projects/minecraftcity/13.jpg'), 'Canals allow for tranquil boat travel and leisure']];
+        [[require('../../assets/minecraft/minecraftcity/2.jpg'), 'A hill with a view'],
+        [require('../../assets/minecraft/minecraftcity/3.jpg'), 'A low rise street of houses with skyscrapers in the distance.'],
+        [require('../../assets/minecraft/minecraftcity/4.jpg'), 'The Monorail transit system passes over a metro line in the heart of the city'],
+        [require('../../assets/minecraft/minecraftcity/5.jpg'), 'Here is Creeperville City Park with its lake and gardens'],
+        [require('../../assets/minecraft/minecraftcity/6.jpg'), 'There are a wide variety of land uses and types of building'],
+        [require('../../assets/minecraft/minecraftcity/7.jpg'), 'Manor Street metro station on Line 3b'],
+        [require('../../assets/minecraft/minecraftcity/8.jpg'), 'The rail network is very dense and is the fastest way to travel'], 
+        [require('../../assets/minecraft/minecraftcity/9.jpg'), 'Creeperville football stadium'], 
+        [require('../../assets/minecraft/minecraftcity/10.jpg'), 'Some buildings are based on real life ones. Here we look across the lakes and the roof of Marylecreeper station, which is based on London Marylebone.'],
+        [require('../../assets/minecraft/minecraftcity/11.jpg'), 'Now this is what I call a lounge!'],
+        [require('../../assets/minecraft/minecraftcity/12.jpg'), 'The interior of a 1930s-style semi-detached house'],
+        [require('../../assets/minecraft/minecraftcity/13.jpg'), 'Canals allow for tranquil boat travel and leisure']];
 
 export default MinecraftCity;

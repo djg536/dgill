@@ -11,7 +11,7 @@ class GameMaker extends Component {
                     <strong>I first learnt the basics of programming using an application called <a href="https://www.yoyogames.com/gamemaker">GameMaker</a>, the same platform behind the hit game Undertale. On this page you'll find a selection of the games that I created with this app.</strong>
 
                     <Card>
-                        <Card.Img variant='top' src={require('../../assets/projects/gamemaker/5.jpg')} />
+                        <Card.Img variant='top' src={require('../../assets/projects/gamemaker/2.jpg')} />
                         <Card.Body>
                             <Card.Title>Killer Zombies 2D</Card.Title>
                             <Card.Text>
@@ -23,7 +23,7 @@ class GameMaker extends Component {
 
                     <CardDeck> 
                         <Card>
-                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/6.jpg')} />
+                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/3.jpg')} />
                             <Card.Body>
                                 <Card.Title>Scribblecraft</Card.Title>
                                 <Card.Text>
@@ -33,7 +33,7 @@ class GameMaker extends Component {
                         </Card>
 
                         <Card>
-                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/7.jpg')} />
+                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/4.jpg')} />
                             <Card.Body>
                                 <Card.Title>Pixeldot</Card.Title>
                                 <Card.Text>
@@ -43,7 +43,7 @@ class GameMaker extends Component {
                         </Card>
 
                         <Card>
-                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/8.jpg')} />
+                            <Card.Img variant='top' src={require('../../assets/projects/gamemaker/5.jpg')} />
                             <Card.Body>
                                 <Card.Title>Tunnel Shooter</Card.Title>
                                 <Card.Text>
