@@ -77,32 +77,40 @@ class Projects extends Component {
         
         <CardDeck> 
           <Card>
-              <Card.Img variant='top' src={require('../assets/projects/misc/1.jpg')} />
-              <Card.Body>
-                  <Card.Title>Scientific Calculator</Card.Title>
-                  <Card.Text>
-                      Windows (C#) and Android (Java) calculator apps, with support for somewhat complex calculations
-                  </Card.Text>
-              </Card.Body>
-          </Card>
-
-          <Card>
-              <Card.Img variant='top' src={require('../assets/projects/misc/2.jpg')} />
-              <Card.Body>
-                  <Card.Title>Rich Text Editor</Card.Title>
-                  <Card.Text>
-                      Simple .rtf and .txt file editor written in C# .NET with a variety of formatting options
-                  </Card.Text>
-              </Card.Body>
-          </Card>
-
-          <Card>
-              <Card.Img variant='top' src={require('../assets/projects/misc/3.jpg')} />
+              <Card.Img variant='top' src={require('../assets/projects/railcrafter/1.jpg')} />
               <Card.Body>
                   <Card.Title>Railcrafter Train Simulator</Card.Title>
                   <Card.Text>
                       A basic 3D train simulator built in C++ on the Irrlicht Engine, with 3D models produced in Blender
                   </Card.Text>
+                  <Link to='/projects/railcrafter'>
+                    <Button variant='info'>It's on!</Button>
+                  </Link>
+              </Card.Body>
+          </Card>
+          <Card>
+              <Card.Img variant='top' src={require('../assets/projects/calculator/1.jpg')} />
+              <Card.Body>
+                  <Card.Title>Scientific Calculator</Card.Title>
+                  <Card.Text>
+                      Windows (C#) and Android (Java) calculator apps, with support for somewhat complex calculations
+                  </Card.Text>
+                  <Link to='/projects/calculator'>
+                    <Button variant='info'>Let's do maths</Button>
+                  </Link>
+              </Card.Body>
+          </Card>
+
+          <Card>
+              <Card.Img variant='top' src={require('../assets/projects/texteditor/1.jpg')} />
+              <Card.Body>
+                  <Card.Title>Rich Text Editor</Card.Title>
+                  <Card.Text>
+                      Simple .rtf and .txt file editor written in C# .NET with a variety of formatting options
+                  </Card.Text>
+                  <Link to='/projects/texteditor'>
+                    <Button variant='info'>Get informed</Button>
+                  </Link>
               </Card.Body>
           </Card>
         </CardDeck>

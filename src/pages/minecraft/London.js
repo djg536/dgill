@@ -16,7 +16,7 @@ class London extends Component {
 
                 <div className='main-text'>
                     <br/>
-                    This map is still very much work-in-progress, but is already starting to shine. It features some of London's most iconic buildings, built in geograpically accurate locations. So far only some of it has been built and there are many unfilled, empty pieces of land between them which I intend to build on later. I have used satellite imagery and real life photographs to try and be as accurate as possible.
+                    This map is still very much work-in-progress, but is already starting to shine. It features some of London's most iconic buildings, built in geographically accurate locations. So far only some of it has been built and there are many unfilled, empty pieces of land between them which I intend to build on later. I have used satellite imagery and real-life photographs to try and be as accurate as possible.
                     <p/>
                     <strong>When released, this map will require Traincraft 1.7.10.</strong>
                     <br/>

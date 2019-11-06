@@ -18,6 +18,9 @@ import Minecraft from './pages/Minecraft';
 import AsciiStudio from './pages/projects/AsciiStudio';
 import ImageEncryptor from './pages/projects/ImageEncryptor';
 import AnimationStudio from './pages/projects/AnimationStudio';
+import Railcrafter from './pages/projects/Railcrafter';
+import Calculator from './pages/projects/Calculator';
+import TextEditor from './pages/projects/TextEditor';
 import GameMaker from './pages/projects/GameMaker';
 import TyneAndWearMetro from './pages/trains/TyneAndWearMetro';
 import Merseyrail from './pages/trains/Merseyrail';
@@ -68,6 +71,9 @@ const ProjectsRouter = ({match}) => (
       <Route path={`${match.path}/asciistudio`} component={AsciiStudio}/>
       <Route path={`${match.path}/imageencryptor`} component={ImageEncryptor}/>
       <Route path={`${match.path}/animationstudio`} component={AnimationStudio}/>
+      <Route path={`${match.path}/railcrafter`} component={Railcrafter}/>
+      <Route path={`${match.path}/calculator`} component={Calculator}/>
+      <Route path={`${match.path}/texteditor`} component={TextEditor}/>
       <Route path={`${match.path}/gamemaker`} component={GameMaker}/>
       <Route path={`${match.path}`} component={Projects}/>
     </Switch>
