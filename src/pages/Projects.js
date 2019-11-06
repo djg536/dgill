@@ -90,7 +90,7 @@ class Projects extends Component {
             <h2>Mobfield Manor Minecraft Survival Map</h2>
             <p>Put your survival skills to the test and see how long you can last out as your explore this long-abandoned mansion.</p>
             <Link to='/projects/house'>
-              <Button variant='danger'>I dare to find out more</Button>
+              <Button variant='danger btn-lg'>I dare to find out more</Button>
             </Link>
           </Container>
         </Jumbotron>
@@ -100,12 +100,20 @@ class Projects extends Component {
             <h2>Creeperville Minecraft City</h2>
             <p>A huge city map which has spent more than half a decade in the making.</p>
             <Link to='/projects/city'>
-              <Button variant='warning'>Show me the money!</Button>
+              <Button variant='warning btn-lg'>Show me the money!</Button>
             </Link>
           </Container>
         </Jumbotron>        
 
-         
+        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/experimental/1.jpg') + ')' }}>
+          <Container>
+            <h2>Experimental and Legacy Projects</h2>
+            <p>These programs are older or never passed exploratory phases.</p>
+            <Link to='/projects/experimental'>
+              <Button variant='dark btn-lg'>Tell me more</Button>
+            </Link>
+          </Container>
+        </Jumbotron>        
 
       </div>
     );
