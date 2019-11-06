@@ -29,6 +29,15 @@ div.jumbotron div.container {
     margin-top: 160px;
 }
 
+div.card-deck {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+div.card {
+    color: black;
+}
+
 .card-img-overlay .card-text {
     background-color: rgba(0,0,0,0.5);
     padding: 2vw;

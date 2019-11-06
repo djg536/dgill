@@ -32,7 +32,7 @@ class Projects extends Component {
           </Container>
         </Jumbotron>
 
-        <CardDeck style={{color: 'black', margin: 0, marginBottom: '15px'}}>
+        <CardDeck>
           <Card>
           <Card.Img variant='top' src={require('../assets/projects/asciistudio/2.jpg')} />
             <Card.Body>
@@ -74,6 +74,39 @@ class Projects extends Component {
 
         </CardDeck>
 
+        
+        <CardDeck> 
+          <Card>
+              <Card.Img variant='top' src={require('../assets/projects/experimental/2.jpg')} />
+              <Card.Body>
+                  <Card.Title>Scientific Calculator</Card.Title>
+                  <Card.Text>
+                      Windows (C#) and Android (Java) calculator apps, with support for somewhat complex calculations
+                  </Card.Text>
+              </Card.Body>
+          </Card>
+
+          <Card>
+              <Card.Img variant='top' src={require('../assets/projects/experimental/3.jpg')} />
+              <Card.Body>
+                  <Card.Title>Rich Text Editor</Card.Title>
+                  <Card.Text>
+                      Simple .rtf and .txt file editor written in C# .NET with a variety of formatting options including image support, bulleted lists, fonts and more
+                  </Card.Text>
+              </Card.Body>
+          </Card>
+
+          <Card>
+              <Card.Img variant='top' src={require('../assets/projects/experimental/4.jpg')} />
+              <Card.Body>
+                  <Card.Title>Railcrafter Train Simulator</Card.Title>
+                  <Card.Text>
+                      A basic 3D train simulator built in C++ on the Irrlicht Engine, with 3D models produced in Blender
+                  </Card.Text>
+              </Card.Body>
+          </Card>
+        </CardDeck>
+
 
         <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/traincraft/10.jpg') + ')' }}>
           <Container>
@@ -105,11 +138,11 @@ class Projects extends Component {
           </Container>
         </Jumbotron>        
 
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/experimental/1.jpg') + ')' }}>
+        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/projects/gamemaker/1.jpg') + ')' }}>
           <Container>
-            <h2>Experimental and Legacy Projects</h2>
-            <p>These programs are older or never passed exploratory phases.</p>
-            <Link to='/projects/experimental'>
+            <h2>GameMaker 8 Games</h2>
+            <p>These games were created during my early years as a programmer and let me experiment.</p>
+            <Link to='/projects/gamemaker'>
               <Button variant='dark btn-lg'>Tell me more</Button>
             </Link>
           </Container>
