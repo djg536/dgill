@@ -91,7 +91,7 @@ class Projects extends Component {
               <Card.Body>
                   <Card.Title>Rich Text Editor</Card.Title>
                   <Card.Text>
-                      Simple .rtf and .txt file editor written in C# .NET with a variety of formatting options including image support, bulleted lists, fonts and more
+                      Simple .rtf and .txt file editor written in C# .NET with a variety of formatting options
                   </Card.Text>
               </Card.Body>
           </Card>
