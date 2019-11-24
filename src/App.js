@@ -99,10 +99,10 @@ const TrainsRouter = ({match}) => (
 const MinecraftRouter = ({match}) => (
   <div>
     <Switch>
+      <Route path={`${match.path}/london`} component={London}/>
       <Route path={`${match.path}/city`} component={MinecraftCity}/>
       <Route path={`${match.path}/traincraft`} component={Traincraft}/>
       <Route path={`${match.path}/house`} component={House}/>
-      <Route path={`${match.path}/london`} component={London}/>
       <Route path={`${match.path}`} component={Minecraft}/>
     </Switch>
   </div>

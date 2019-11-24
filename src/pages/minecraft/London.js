@@ -16,7 +16,36 @@ class London extends Component {
 
                 <div className='main-text'>
                     <br/>
-                    This map is still very much work-in-progress, but is already starting to shine. It features some of London's most iconic buildings, built in geographically accurate locations. So far only some of it has been built and there are many unfilled, empty pieces of land between them which I intend to build on later. I have used satellite imagery and real-life photographs to try and be as accurate as possible.
+
+                    The idea for this map is to recreate central London and
+                    Canary Wharf in Minecraft. I love the city, its architecture
+                    and history, and so thought it would be an interesting project
+                    to explore this in everyone's favourite voxel game.
+                    It's still very much work-in-progress but is already starting to shine.
+                    <p/>
+                    I've started by working on some of London's most iconic buildings,
+                    positioning them on the map in roughly geographically accurate locations.
+                    Making use of satellite imagery and photographs, I have attempted
+                    to build these structures as close to real-life as I can.
+                    Of course, there are limitations, given the blocky nature of Minecraft.
+                    <p/>
+                    I have also built sections of London Underground and National Rail
+                    lines in the city, as accurately as I can. Again making use of satellite imagery, 
+                    I have been helped by the fact that the layout diagrams of many Tube stations
+                    were previously released by TFL as part of a <a href="https://www.whatdotheyknow.com/request/maps_of_public_corridors_on_larg#outgoing-458932">Freedom of Information Request</a>.
+                    This has been very helpful; for example, whilst most Tube stations have
+                    two platforms side-by-side (for each direction of travel), did you know that the Jubilee
+                    Line at Westminster station has its Eastbound platform directly above its 
+                    Westbound platform?
+                    <p/>
+                    Recreating a dense and iconic city is no small feat!
+                    To make things easier, the most iconic buildings and districts are being
+                    built more closely together on the map than in reality, so that I can avoid
+                    building most of the lesser known streets in-between.
+                    <p/>
+                    So far only some of it has been built and there are many unfilled,
+                    empty pieces of land between the different sites which I intend to build on later.   
+                    This map will be released at a later date.                        
                     <p/>
                     <strong>When released, this map will require Traincraft 1.7.10.</strong>
                     <br/>
@@ -40,6 +69,9 @@ const lst =
         [require('../../assets/minecraft/london/8.jpg'), 'Canary Wharf 1'],
         [require('../../assets/minecraft/london/9.jpg'), 'Canary Wharf 2'],
         [require('../../assets/minecraft/london/10.jpg'), 'Canary Wharf DLR Station'],
-        [require('../../assets/minecraft/london/11.jpg'), 'Tower Bridge with the Monument in the background']];
+        [require('../../assets/minecraft/london/11.jpg'), 'Tower Bridge with the Monument in the background'],
+        [require('../../assets/minecraft/london/12.jpg'), 'The Barbican Centre, a fine example of Brutalist architecture'],
+        [require('../../assets/minecraft/london/13.jpg'), 'Low-rise housing square with Lauderdale Tower in the background'],
+        [require('../../assets/minecraft/london/14.jpg'), 'A decorated flat interior in the Barbican Centre']];
 
 export default London;

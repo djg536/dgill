@@ -8,6 +8,15 @@ class Minecraft extends Component {
   render() {
     return (
       <div>
+        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/london/7.jpg') + ')' }}>
+          <Container>
+            <h1>Minecraft London</h1>
+            <p>London recreated with blocks.</p>
+            <Link to='/minecraft/london'>
+              <Button variant='success btn-lg'>Mind the gap</Button>
+            </Link>
+          </Container>
+        </Jumbotron>   
 
         <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/traincraft/10.jpg') + ')' }}>
           <Container>
@@ -38,17 +47,6 @@ class Minecraft extends Component {
             </Link>
           </Container>
         </Jumbotron>         
-
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/london/7.jpg') + ')' }}>
-          <Container>
-            <h1>Minecraft London</h1>
-            <p>London recreated with blocks.</p>
-            <Link to='/minecraft/london'>
-              <Button variant='success btn-lg'>Mind the gap</Button>
-            </Link>
-          </Container>
-        </Jumbotron>         
-
       </div>
     );
   }
