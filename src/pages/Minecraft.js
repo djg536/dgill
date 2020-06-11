@@ -38,7 +38,7 @@ class Minecraft extends Component {
           </Container>
         </Jumbotron>
 
-        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/minecraftcity/4.jpg') + ')' }}>
+        <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/minecraft/minecraftcity/3.jpg') + ')' }}>
           <Container>
             <h1>Creeperville Minecraft City</h1>
             <p>A huge city map which has spent more than half a decade in the making.</p>

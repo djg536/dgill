@@ -11,7 +11,7 @@ div.jumbotron {
 }
 
 div.jumbotron, div.carousel-caption {
-    text-shadow: 3px 3px 4px #000000;
+    text-shadow: 0 0 60px #000000, 0 0 20px #000000, 0 0 10px #000000;
 }
 
 div.jumbotron svg {
@@ -53,6 +53,13 @@ div.card {
     margin-right: 8vw;
     text-align: justify;
     margin-bottom: 24px;
+}
+
+@media screen and (min-width: 950px) {
+    div.carousel {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
 }
 
 body {

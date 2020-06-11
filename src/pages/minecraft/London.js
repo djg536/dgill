@@ -54,6 +54,28 @@ class London extends Component {
                 <Carousel>
                     {generateCarouselItemsHTML(lst)}
                 </Carousel>
+
+                <div className='main-text' style={{marginTop: "40px"}}>
+                    <h3>11th June 2020 Development Update</h3>
+                    Work on the map has been progressing. Rome was not built in a day,
+                    and neither will this city be - a major undertaking at the least.
+                    <p/>
+                    Summary of work:
+                    <p/>
+                    <ul>
+                        <li>Victoria Line extended from King's Cross St. Pancras to Euston</li>
+                        <li>St. Pancras Station building taking shape</li>
+                        <li>The entirety of the Northern City Line has been constructed</li>
+                        <li>Central Line built between Liverpool St. and Oxford Circus</li>
+                        <li>Liverpool St. Station building has been reduced in size</li>
+                        <li>Thameslink built between Farringdon and Blackfriars</li>
+                    </ul>
+                    <p/>
+                    Note that all of these works involve the rail network.
+                    This is partially because building this first will allow it to
+                    serve as a datum for positioning the rest of the city buildings,
+                    but also because I like trains if you haven't noticed.
+                </div>
             </div>
         );
     }
@@ -72,6 +94,8 @@ const lst =
         [require('../../assets/minecraft/london/11.jpg'), 'Tower Bridge with the Monument in the background'],
         [require('../../assets/minecraft/london/12.jpg'), 'The Barbican Centre, a fine example of Brutalist architecture'],
         [require('../../assets/minecraft/london/13.jpg'), 'Low-rise housing square with Lauderdale Tower in the background'],
-        [require('../../assets/minecraft/london/14.jpg'), 'A decorated flat interior in the Barbican Centre']];
+        [require('../../assets/minecraft/london/14.jpg'), "The distinctive curve of Bank Station's Central Line platforms"],
+        [require('../../assets/minecraft/london/15.jpg'), 'The facade of St. Pancras is taking shape'],
+        [require('../../assets/minecraft/london/16.jpg'), "Escalators at King's Cross"]];
 
 export default London;
