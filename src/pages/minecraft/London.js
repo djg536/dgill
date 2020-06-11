@@ -55,7 +55,7 @@ class London extends Component {
                     {generateCarouselItemsHTML(lst)}
                 </Carousel>
 
-                <div className='main-text' style={{marginTop: "40px"}}>
+                <div className='main-text upper-margin'>
                     <h3>11th June 2020 Development Update</h3>
                     Work on the map has been progressing. Rome was not built in a day,
                     and neither will this city be - a major undertaking at the least.

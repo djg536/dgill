@@ -8,7 +8,11 @@ class GameMaker extends Component {
                 <div className="main-text">
                     <h1>GameMaker 8 Games</h1>
                     <p/>
-                    <strong>I first learnt the basics of programming using an application called <a href="https://www.yoyogames.com/gamemaker">GameMaker</a>, the same platform behind the hit game Undertale. On this page you'll find a selection of the games that I created with this app.</strong>
+                    <strong>I first learnt the basics of programming using an application called <a href="https://www.yoyogames.com/gamemaker">GameMaker</a>,
+                    the same platform behind the hit game Undertale. 
+                    <p/>
+                    On this page you'll find a summary of the games that I created using this app.</strong>
+                    <p/>
 
                     <Card>
                         <Card.Img variant='top' src={require('../../assets/projects/gamemaker/2.jpg')} />

@@ -20,13 +20,6 @@ div.jumbotron svg {
     color: white;
 }
 
-div.jumbotron h4 {
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-    text-shadow: none;
-}
-
 div.jumbotron div.container {
     color: white;
     margin-top: 160px;
@@ -83,4 +76,8 @@ body {
 
  div.card {
      margin: 15px;
+ }
+
+ .upper-margin {
+    margin-top: 40px;
  }
