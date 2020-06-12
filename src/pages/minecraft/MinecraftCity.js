@@ -41,9 +41,16 @@ class MinecraftCity extends Component {
                 {generateCarouselItemsHTML(lst)}
             </Carousel>
 
-            <div className='main-text'>
+            <div className='main-text upper-margin'>
+                <p/>
+                Below is a geographically accurate map of the city's rail network:
+                <p/>
+                <img className='img-fluid' src={require('../../assets/minecraft/minecraftcity/map.jpg')} alt="Map of the city's rail network" />
+                <p/>
                 <br/>
-                <a href='https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view'><button className='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button></a>
+                <a href='https://drive.google.com/file/d/0B7CUQChSYQFROEluWE9iWnpRWTg/view'>
+                    <button className='btn btn-success'>Download <FontAwesomeIcon icon={faDownload} /></button>
+                </a>
             </div>
         </div>
     );

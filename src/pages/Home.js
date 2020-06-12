@@ -15,7 +15,7 @@ class Home extends Component {
               <h1>You can call me Dave.</h1>
               <p></p>
               <FontAwesomeIcon spin size='4x' icon={faLaughWink} />
-              <h4 class="upper-margin">Please enjoy exploring my website, unless you have a very important meeting to attend to.</h4>
+              <h4 className="upper-margin">Please enjoy exploring my website, unless you have a very important meeting to attend to.</h4>
 
             </Container>
           </Jumbotron>
