@@ -10,7 +10,7 @@ class Home extends Component {
         <div>
 
           <Jumbotron fluid style={{backgroundImage: 'url(' + require('../assets/home/1.jpg') + ')' }}>
-            <Container style={{width: 'fit-content'}}>
+            <Container style={{width: 'fit-content', textAlign: 'center'}}>
               <h4>Hi, I'm a Software Developer.</h4>
               <h1>You can call me Dave.</h1>
               <p></p>
