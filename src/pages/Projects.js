@@ -77,35 +77,6 @@ class Projects extends Component {
                         </Container>
                     </Jumbotron>
 
-                    <Jumbotron
-                        ref={ref}
-                        fluid
-                        style={{
-                            backgroundImage:
-                                "url(" +
-                                require("../assets/projects/yeezy/1.jpg") +
-                                ")"
-                        }}
-                    >
-                        <Container>
-                            <h1>Software Engineering Project</h1>
-                            <p>
-                                An undergraduate group project I was a part of
-                                to design and build a series of zombie games.
-                            </p>
-                            <a
-                                href="https://sites.google.com/york.ac.uk/yeezygames/home"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <Button variant="success btn-lg">
-                                    See more{" "}
-                                    <FontAwesomeIcon icon={faExternalLinkAlt} />
-                                </Button>
-                            </a>
-                        </Container>
-                    </Jumbotron>
-
                     <CardDeck>
                         <Card>
                             <Card.Img
@@ -222,18 +193,62 @@ class Projects extends Component {
                         style={{
                             backgroundImage:
                                 "url(" +
-                                require("../assets/minecraft/1.jpg") +
+                                require("../assets/minecraft/london/7.jpg") +
                                 ")"
                         }}
                     >
                         <Container>
-                            <h1>Minecraft Megaprojects</h1>
+                            <h1>Minecraft London</h1>
+                            <p>London recreated with blocks.</p>
+                            <Link to="/minecraft/london">
+                                <Button variant="success btn-lg">
+                                    Mind the gap
+                                </Button>
+                            </Link>
+                        </Container>
+                    </Jumbotron>
+
+                    <Jumbotron
+                        fluid
+                        style={{
+                            backgroundImage:
+                                "url(" +
+                                require("../assets/minecraft/traincraft/10.jpg") +
+                                ")"
+                        }}
+                    >
+                        <Container>
+                            <h1>60km Long Traincraft Network</h1>
                             <p>
-                                My biggest builds in everyone's favourite voxel.
+                                You'll be on the right track if you let off some
+                                steam on this Minecraft map.
                             </p>
-                            <Link to="/minecraft">
-                                <Button variant="danger btn-lg">
-                                    Block by block
+                            <Link to="/minecraft/traincraft">
+                                <Button variant="primary btn-lg">
+                                    Toot-toot!
+                                </Button>
+                            </Link>
+                        </Container>
+                    </Jumbotron>
+
+                    <Jumbotron
+                        fluid
+                        style={{
+                            backgroundImage:
+                                "url(" +
+                                require("../assets/minecraft/minecraftcity/3.jpg") +
+                                ")"
+                        }}
+                    >
+                        <Container>
+                            <h1>Creeperville Minecraft City</h1>
+                            <p>
+                                A huge city map which has spent more than half a
+                                decade in the making.
+                            </p>
+                            <Link to="/minecraft/city">
+                                <Button variant="warning btn-lg">
+                                    Show me the money!
                                 </Button>
                             </Link>
                         </Container>
