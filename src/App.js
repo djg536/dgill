@@ -10,15 +10,13 @@ import Trains from './pages/Trains';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import MinecraftCity from './pages/minecraft/MinecraftCity';
-import Traincraft from './pages/minecraft/Traincraft';
-import House from './pages/minecraft/House';
-import London from './pages/minecraft/London';
-import Minecraft from './pages/Minecraft';
-import AsciiStudio from './pages/projects/AsciiStudio';
-import ImageEncryptor from './pages/projects/ImageEncryptor';
-import AnimationStudio from './pages/projects/AnimationStudio';
-import Railcrafter from './pages/projects/Railcrafter';
-import Calculator from './pages/projects/Calculator';
+import Traincraft from "./pages/minecraft/Traincraft";
+import London from "./pages/minecraft/London";
+import AsciiStudio from "./pages/projects/AsciiStudio";
+import ImageEncryptor from "./pages/projects/ImageEncryptor";
+import AnimationStudio from "./pages/projects/AnimationStudio";
+import Railcrafter from "./pages/projects/Railcrafter";
+import Calculator from "./pages/projects/Calculator";
 import TextEditor from "./pages/projects/TextEditor";
 import TyneAndWearMetro from "./pages/trains/TyneAndWearMetro";
 import Merseyrail from "./pages/trains/Merseyrail";
@@ -77,7 +75,6 @@ function App() {
                 <Route exact path="/" component={Projects} />
                 <Route path="/projects" component={ProjectsRouter} />
                 <Route path="/trains" component={TrainsRouter} />
-                <Route path="/minecraft" component={MinecraftRouter} />
                 <Route path="/about" component={About} />
             </Switch>
         </div>
@@ -99,6 +96,9 @@ const ProjectsRouter = ({ match }) => (
             <Route path={`${match.path}/railcrafter`} component={Railcrafter} />
             <Route path={`${match.path}/calculator`} component={Calculator} />
             <Route path={`${match.path}/texteditor`} component={TextEditor} />
+            <Route path={`${match.path}/london`} component={London} />
+            <Route path={`${match.path}/city`} component={MinecraftCity} />
+            <Route path={`${match.path}/traincraft`} component={Traincraft} />
             <Route path={`${match.path}`} component={Projects} />
         </Switch>
     </div>
@@ -116,18 +116,6 @@ const TrainsRouter = ({match}) => (
       <Route path={`${match.path}/tyneandwearmetro`} component={TyneAndWearMetro}/>
       <Route path={`${match.path}/merseyrail`} component={Merseyrail}/>
       <Route path={`${match.path}`} component={Trains}/>
-    </Switch>
-  </div>
-);
-
-const MinecraftRouter = ({match}) => (
-  <div>
-    <Switch>
-      <Route path={`${match.path}/london`} component={London}/>
-      <Route path={`${match.path}/city`} component={MinecraftCity}/>
-      <Route path={`${match.path}/traincraft`} component={Traincraft}/>
-      <Route path={`${match.path}/house`} component={House}/>
-      <Route path={`${match.path}`} component={Minecraft}/>
     </Switch>
   </div>
 );
