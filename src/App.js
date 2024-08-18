@@ -26,6 +26,7 @@ import Class315 from "./pages/trains/Class315";
 import Class317 from "./pages/trains/Class317";
 import Class390 from "./pages/trains/Class390";
 import Class395 from "./pages/trains/Class395";
+import GoatCounter from "./utils/GoatCounter";
 
 function App() {
     const [expanded, setExpanded] = useState(false);
@@ -36,6 +37,8 @@ function App() {
                 if (expanded === "expanded") setExpanded(false);
             }}
         >
+            <GoatCounter />
+
             <Navbar expanded={expanded} expand="sm" variant="dark" fixed="top">
                 <Navbar.Brand as={NavLink} to="/">
                     dgill.uk
