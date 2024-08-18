@@ -7,7 +7,6 @@ import {
     faExternalLinkAlt,
     faChevronDown
 } from "@fortawesome/free-solid-svg-icons";
-import Particles from "react-particles-js";
 import "../App.css";
 import { scrollToViewElement } from "../utils/navigationUtils";
 
@@ -41,10 +40,6 @@ class Projects extends Component {
                             </h4>
                         </Container>
                     </Jumbotron>
-
-                    <Particles
-                        params={require("../assets/home/particlesjs-config.json")}
-                    />
                 </div>
 
                 <div>
