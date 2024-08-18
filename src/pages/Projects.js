@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Container, Card, Button, CardDeck } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faCode,
-    faExternalLinkAlt,
-    faChevronDown
-} from "@fortawesome/free-solid-svg-icons";
+import { faCode, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import "../App.css";
 import { scrollToViewElement } from "../utils/navigationUtils";
 
